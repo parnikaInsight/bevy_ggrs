@@ -17,7 +17,7 @@ wasm-bindgen = ["instant/wasm-bindgen", "ggrs/wasm-bindgen"]
 
 [dependencies]
 #bevy = { version = "0.8.0", default-features = false, features = ["render", "bevy_asset","bevy_scene",]}
-bevy = {git = "https://github.com/Bendzae/bevy-fork.git", branch = "local-0-8-release"}
+bevy = {git = "https://github.com/paxsethorld/bevy-fork.git", branch = "local-0-8-release"}
 bytemuck = { version = "1.7", features=["derive"]}
 instant = "0.1"
 log = "0.4"
@@ -27,7 +27,7 @@ ggrs = { git = "https://github.com/gschup/ggrs", features=["sync-send"]}
 structopt = "0.3"
 rand = "0.8.4"
 #bevy = "0.8.0"
-bevy = {git = "https://github.com/Bendzae/bevy-fork.git", branch = "local-0-8-release"}
+bevy = {git = "https://github.com/paxsethorld/bevy-fork.git", branch = "local-0-8-release"}
 serde = "1.0.130"
 serde_json = "1.0"
 
